@@ -6,7 +6,10 @@
     <div>
         <h1 class="bg-red-600">Home</h1>
         <ThemeSwitcher />
-        <Icon name="uil:github" color="black" />
+        <Button variant="outline" size="icon">
+            <Icon name="uil:github" color="black" />
+        </Button>
+        <Button variant="outline">BUTTON</Button>
     </div>
 </template>
 
