@@ -1,75 +1,53 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Template
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This Nuxt 3 template provides a robust starting point for your next project, integrating powerful tools and libraries to enhance development efficiency and application performance.
 
-## Setup
 
-Make sure to install the dependencies:
+## Features
 
+- [Nuxt Image](https://image.nuxt.com/): Optimized image handling for faster load times and better performance.
+- [Nuxt Icon](https://nuxt.com/modules/icon): Easy-to-use icon module for adding icons to your project.
+- [Tailwind CSS](https://tailwindcss.nuxtjs.org/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): Utility-first CSS framework for rapid UI development.
+- [Pinia](https://pinia.vuejs.org/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): State management library for managing application state.
+- [Color Mode](https://color-mode.nuxtjs.org/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): Dark mode and theme switching support.
+- [Shadcn Nuxt](https://www.shadcn-vue.com/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): Integration with Shadcn for enhanced component styling and UI.
+
+
+## Installation
+
+To get started, clone the repository and install the dependencies using `pnpm`:
 ```bash
-# npm
-npm install
-
-# pnpm
+git clone https://github.com/yourusername/nuxt3-template.git
+cd nuxt3-template
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Usage
 
-Start the development server on `http://localhost:3000`:
-
+Start the development server:
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
-
+Build the project for production:
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm build
 ```
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
+## Additional Resources
 
-# pnpm
-pnpm run preview
+- [Nuxt 3 Documentation](https://nuxt.com/docs)
+- [Vue.js Documentation](https://vuejs.org/v2/guide/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Pinia Documentation](https://pinia.vuejs.org/)
+- [Nuxt Color Mode Documentation](https://color-mode.nuxtjs.org/)
+- [Shadcn Vue Documentation](https://www.shadcn-vue.com/)
 
-# yarn
-yarn preview
+## Contributing
 
-# bun
-bun run preview
-```
+Contributions are welcome! Please open an issue or submit a pull request for any bugs, enhancements, or new features.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
