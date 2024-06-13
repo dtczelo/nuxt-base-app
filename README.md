@@ -1,6 +1,6 @@
 # Nuxt 3 Template
 
-This Nuxt 3 template provides a robust starting point for your next project, integrating powerful tools and libraries to enhance development efficiency and application performance.
+This Nuxt 3 template provides some common tools used for SaaS. More features coming !
 
 
 ## Features
