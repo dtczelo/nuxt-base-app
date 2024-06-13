@@ -17,8 +17,8 @@ This Nuxt 3 template provides a robust starting point for your next project, int
 
 To get started, clone the repository and install the dependencies using `pnpm`:
 ```bash
-git clone https://github.com/yourusername/nuxt3-template.git
-cd nuxt3-template
+git clone https://github.com/dtczelo/nuxt-base-app.git
+cd nuxt-base-app
 pnpm install
 ```
 
