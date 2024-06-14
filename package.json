@@ -1,6 +1,5 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -10,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/fonts": "^0.7.0",
     "@nuxt/image": "^1.7.0",
     "@pinia/nuxt": "^0.5.1",
     "class-variance-authority": "^0.7.0",

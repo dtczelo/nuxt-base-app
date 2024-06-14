@@ -1,19 +1,31 @@
-<script setup>
+<script setup lang="ts">
 const colorMode = useColorMode();
+const icon = ref("");
+const themes = ["system", "light", "dark"];
 
-//   console.log(colorMode.preference);
+const themesIcon: Record<string, string> = {
+    system: "mdi:desktop-mac",
+    light: "mdi:white-balance-sunny",
+    dark: "mdi:moon-waning-crescent",
+};
+
+const toggleTheme = () => {
+    const currentIndex = themes.indexOf(colorMode.preference);
+    const nextIndex = (currentIndex + 1) % themes.length;
+    colorMode.preference = themes[nextIndex];
+    icon.value = themesIcon[colorMode.preference];
+};
+
+onMounted(() => {
+    colorMode.preference = "system";
+    icon.value = themesIcon[colorMode.preference];
+});
 </script>
 
 <template>
-    <div>
-        <h1 class="dark:text-blue-600">Color mode: {{ $colorMode.value }}</h1>
-        <select v-model="$colorMode.preference">
-            <option value="system">System</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-            <option value="sepia">Sepia</option>
-        </select>
-    </div>
+    <Button @click="toggleTheme" size="icon" title="Select your theme">
+        <Icon :name="icon" />
+    </Button>
 </template>
 
 <style></style>
