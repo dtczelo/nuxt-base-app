@@ -8,7 +8,8 @@ export default defineNuxtConfig({
         "nuxt-icon",
         "shadcn-nuxt",
         "@nuxt/image",
-        "@nuxt/fonts"
+        "@nuxt/fonts",
+        "@nuxtjs/i18n",
     ],
 
     tailwindcss: {
@@ -32,5 +33,9 @@ export default defineNuxtConfig({
          * @default "./components/ui"
          */
         componentDir: "./components/ui",
+    },
+
+    i18n: {
+        vueI18n: "./i18n.config.ts", // if you are using custom path, default
     },
 });

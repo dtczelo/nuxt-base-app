@@ -7,7 +7,8 @@ This Nuxt 3 template provides some common tools used for SaaS. More features com
 
 - [Nuxt Image](https://image.nuxt.com/): Optimized image handling for faster load times and better performance.
 - [Nuxt Icon](https://nuxt.com/modules/icon): Easy-to-use icon module for adding icons to your project.
-- [Nuxt Fonts](https://nuxt.com/modules/fonts)Plug-and-play custom web font optimization and configuration for Nuxt apps.
+- [Nuxt Fonts](https://nuxt.com/modules/fonts): Plug-and-play custom web font optimization and configuration for Nuxt apps.
+- [I18n](https://i18n.nuxtjs.org/): i18n features for your Nuxt project so you can easily add internationalization.
 - [Tailwind CSS](https://tailwindcss.nuxtjs.org/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): Utility-first CSS framework for rapid UI development.
 - [Pinia](https://pinia.vuejs.org/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): State management library for managing application state.
 - [Color Mode](https://color-mode.nuxtjs.org/?utm_source=nuxt.com&utm_medium=aside-module&utm_campaign=nuxt.com): Dark mode and theme switching support.
