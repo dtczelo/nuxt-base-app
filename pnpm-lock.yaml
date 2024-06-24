@@ -30,8 +30,8 @@ dependencies:
     specifier: ^3.12.1
     version: 3.12.1(@opentelemetry/api@1.8.0)(@unocss/reset@0.61.0)(floating-vue@5.2.2)(rollup@4.18.0)(typescript@5.4.5)(unocss@0.61.0)(vite@5.2.13)
   radix-vue:
-    specifier: ^1.8.3
-    version: 1.8.3(vue@3.4.29)
+    specifier: ^1.8.5
+    version: 1.8.5(vue@3.4.29)
   shadcn-nuxt:
     specifier: ^0.10.4
     version: 0.10.4(rollup@4.18.0)
@@ -6475,8 +6475,8 @@ packages:
   /queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
 
-  /radix-vue@1.8.3(vue@3.4.29):
-    resolution: {integrity: sha512-WPgvEz0i5XKjwahhffD2QPLiOTthTfecoVjwq4l3i3EWBX2tUp4Vw3n3OLGf3S18FN/WfEgD3GIxYfsrnDutqw==}
+  /radix-vue@1.8.5(vue@3.4.29):
+    resolution: {integrity: sha512-aWRa/tc5EHS2U4h8YTovRtwSMt+Sbk4QRekNTpkshCWlq353mpGBsp0ME/4seOxWn7JKze8NA3pDx/AQuH2tMw==}
     peerDependencies:
       vue: '>= 3.2.0'
     dependencies:
