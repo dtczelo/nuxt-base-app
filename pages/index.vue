@@ -6,7 +6,7 @@
             class="min-h-screen bg-gradient-to-r dark:from-purple-950 dark:to-black text-slate-900 from-purple-500 to-white dark:text-white"
         >
             <header class="flex justify-between items-center p-6">
-                <NuxtLink class="mr-auto" to="https://github.com/dtczelo/nuxt-base-app">
+                <NuxtLink class="mr-auto" to="https://github.com/dtczelo/nuxt-base-app" target="_blank">
                     <Button size="icon">
                         <Icon name="uil:github" />
                     </Button>
